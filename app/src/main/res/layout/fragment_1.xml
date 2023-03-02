@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCall"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_call_24"
+            android:text="전화하기"
+            android:textSize="15dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_baseline_location_on_24"
+            android:id="@+id/btnMap"
+            android:text="위치보기"
+            android:textSize="15dp"/>
+
+
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="기본 정보"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  경기 이천시 경충대로 2855 1층 (사음동)"
+        android:layout_gravity="left"
+        android:drawableLeft="@drawable/ic_baseline_location_on_24"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp" />
+
+    <kr.co.prnd.readmore.ReadMoreTextView
+        android:drawableLeft="@drawable/ic_baseline_access_time_filled_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_text"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:readMoreMaxLine="2"
+        app:readMoreText="...더보기" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  0507-1316-8316"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_baseline_call_24"
+        android:textSize="15dp"/>
+
+
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="편의 정보"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:orientation="horizontal">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="22dp"
+               android:background="@drawable/line"
+               android:drawableLeft="@drawable/ic_baseline_local_parking_24"
+               android:textColor="@color/black"
+               android:text="  주차가능      "/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="22dp"
+               android:background="@drawable/line"
+               android:drawableLeft="@drawable/ic_baseline_wifi_24"
+               android:textColor="@color/black"
+               android:text="  와이파이 가능 "/>
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:background="@drawable/line"
+                android:drawableLeft="@drawable/ic_baseline_local_cafe_24"
+                android:textColor="@color/black"
+                android:text="  포장가능      "/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:background="@drawable/line"
+                android:textColor="@color/black"
+                android:text="  반려동물 가능 "/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
